@@ -5,15 +5,15 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "BBwGSY5S#BYO9A86cvNhlv0z2GNB-OO_49MzBlAEXVR6K9LjJ8GQ",
+SESSION_ID: process.env.SESSION_ID || "tZxwzLwL#qPRPB5UxTlg40qIEQqyFrw-WkAHopT9pka5XKmL1Olw",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝐒𝐞𝐞𝐧 𝐉𝐮𝐬𝐭 𝐍𝐨𝐰 𝐁𝐲 𝐓𝐚𝐠𝐫𝐚👻",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝐒𝐞𝐞𝐧 𝐉𝐮𝐬𝐭 𝐍𝐨𝐰 𝐁𝐲 𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧😎",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -27,7 +27,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923297932858",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923156706249",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // add bot owner name
@@ -65,7 +65,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923297932858",
+DEV: process.env.DEV || "923156706249",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
