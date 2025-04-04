@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "kFgDVD4Y#HQyOQ44zOmKt5KxF_EX1RO7eccCDyKRNVVWKifIAQys",
+SESSION_ID: process.env.SESSION_ID || "NBwXVSII#RtX0SqS4zuJY-tRtcWNY4AzWcS2KKMx_QDJacceYzpc",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -21,13 +21,13 @@ BOT_NAME: process.env.BOT_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // type sticker pack name 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923209945671",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923206514724",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // add bot owner name
@@ -65,7 +65,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923209945671",
+DEV: process.env.DEV || "923206514724",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
