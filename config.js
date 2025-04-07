@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "tAByVAIA#-72yn7qGHlmuF0pi6mQhm7LQvNimvQXFR02sC-cNNpM",
+SESSION_ID: process.env.SESSION_ID || "dMABEDDb#dS0rb7sMJVQ3dU1Np-3cQ-wvcRIqrU5K-AsDXXxVzpA",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -27,7 +27,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923297932858",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923019830236",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // add bot owner name
@@ -65,7 +65,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923297932858",
+DEV: process.env.DEV || "923019830236",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
