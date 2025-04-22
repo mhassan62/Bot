@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lCtySDDA#VOKA6UOWeYbPG0hHYMZfU5hjCtsi4HUlbei14FHRwyM",
+SESSION_ID: process.env.SESSION_ID || "5TUnUQzQ#rHC6S14Mvw0t2JqmT_lU891BbMNEAr_qBUPe4mDidxM",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -25,9 +25,9 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923054030146",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923106957942",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // add bot owner name
@@ -47,9 +47,9 @@ ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-DELETE_LINK: process.env.DELETE_LINK || "false",
+DELETE_LINK: process.env.DELETE_LINK || "true",
 // make anti link true,false for groups 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
@@ -65,7 +65,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923054030146",
+DEV: process.env.DEV || "923106957942",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
