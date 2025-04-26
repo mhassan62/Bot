@@ -21,7 +21,7 @@ BOT_NAME: process.env.BOT_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "𝐌𝐫 𝐇𝐚𝐬𝐬𝐚𝐧",
 // type sticker pack name 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
@@ -41,7 +41,7 @@ LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "true",
+AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
 // false or true for anti bad words  
